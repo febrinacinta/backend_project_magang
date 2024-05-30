@@ -1,0 +1,8 @@
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve('config', 'database.js'), // Lokasi file konfigurasi Sequelize
+  'models-path': path.resolve('models'), // Lokasi folder model
+  'migrations-path': path.resolve('migrations'), // Lokasi folder migrasi
+  'seeders-path': path.resolve('seeders') // Lokasi folder seed
+}
